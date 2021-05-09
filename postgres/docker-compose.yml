@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  postgres:
+    build: ""
+    image: demo-postgres:1.0-SNAPSHOT
+    container_name: demo-postgres
+    ports:
+      - 5432:5432

@@ -1,0 +1,16 @@
+GET http://localhost:8080/users
+
+###
+
+GET http://localhost:8080/users/811eb3ab-24fa-4a0f-80a2-f1ac44f274f3
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "name",
+  "password": "password",
+  "mailAddress": "mailAddress"
+}
